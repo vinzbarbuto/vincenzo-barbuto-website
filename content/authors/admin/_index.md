@@ -1,47 +1,50 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Vincenzo Barbuto
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Vincenzo
+last_name: Barbuto
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: # ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Calabria
+    url: https://www.unical.it/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research focuses on developing and implementing AI techniques that can operate directly on data sources, such as sensors and IoT devices, to enable real-time and efficient decision-making at the network edge.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Edge Intelligence
+  - Internet of Things
+  - Edge Computing
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Information and Communication Technologies
+      institution: University of Calabria
+      year: 2022
+    - course: Double Degree in Data Science and Network Intelligence
+      institution: Télécom SudParis
+      year: 2021
+    - course: MSc in Computer Engineering for the Internet of Things
+      institution: University of Calabria
+      year: 2020
+    - course: BSc in Computer Engineering
+      institution: University of Calabria
+      year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -51,18 +54,21 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/GeorgeCushen
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
+  - icon: google-scholar # Alternatively, use `google-scholar` or `graduation-cap` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=_-riw5YAAAAJ&hl=it&authuser=1
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/vinzbarbuto
+  - icon: orcid
+    icon_pack: ai
+    link: 0000-0002-5639-3291
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
@@ -79,6 +85,8 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+**Vincenzo Barbuto** is a Ph.D. Candidate in Information and Communication Technologies (ICT) at the Department of Computer, Modeling, Electronic, and System Engineering ([DIMES](https://dimes.unical.it/)), University of Calabria, Italy. He is a member of Smart, Pervasive and Mobile systems Engineering ([SPEME](https://labs.dimes.unical.it/speme/people/)) Laboratory since November 2023. His research focuses on developing and implementing AI techniques that can operate directly on data sources, such as sensors and IoT devices, to enable real-time and efficient decision-making at the network edge.
 {style="text-align: justify;"}
+<!-- {{% callout note %}}
+Learn more [about me](./about/) and my background
+{{% /callout %}} -->
