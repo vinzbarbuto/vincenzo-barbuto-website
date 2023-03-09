@@ -1,5 +1,5 @@
 ---
-title: My page
+title: About Me
 type: landing
 
 sections:
@@ -24,6 +24,16 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Teaching Assistant
+          company: University of Calabria
+          company_url: 'https://www.unical.it'
+          company_logo: unical
+          location: Cosenza, Italy
+          date_start: '2022-03-01'
+          date_end: 
+          description: |2-
+              **Computer Science Fundamentals Course** <br />
+              Assisted first-year students in learning the C programming language
         - title: Research Trainee
           company: Télécom SudParis | DICE Laboratory
           company_url: 'https://dice.wp.telecom-sudparis.eu/'
