@@ -17,11 +17,11 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'University of Calabria'
+    description: 'PhD Candidate at University of Calabria.'
+    twitter: 'MLSysOps Project'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-1DMC71FME1'
     baidu_tongji: ''
   verification:
     google: ''
