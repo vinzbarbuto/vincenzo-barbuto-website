@@ -63,9 +63,12 @@ social:
   - icon: google-scholar # Alternatively, use `google-scholar` or `graduation-cap` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?user=_-riw5YAAAAJ&hl=it&authuser=1
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/vinzbarbuto
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/vinzbarbuto
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Vincenzo-Barbuto
   - icon: orcid
     icon_pack: ai
     link: 0000-0002-5639-3291
