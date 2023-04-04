@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -88,7 +88,7 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-**Vincenzo Barbuto** is a Ph.D. Candidate in Information and Communication Technologies (ICT) at the Department of Computer, Modeling, Electronic, and System Engineering ([DIMES](https://dimes.unical.it/)), University of Calabria, Italy. He is a member of Smart, Pervasive and Mobile systems Engineering ([SPEME](https://labs.dimes.unical.it/speme/people/)) Laboratory since November 2023. His research focuses on developing and implementing AI techniques that can operate directly on data sources, such as sensors and IoT devices, to enable real-time and efficient decision-making at the network edge.
+**Vincenzo Barbuto** is a Ph.D. Student in Information and Communication Technologies (ICT) at the Department of Computer, Modeling, Electronic, and System Engineering ([DIMES](https://dimes.unical.it/)), University of Calabria, Italy. He is a member of Smart, Pervasive and Mobile systems Engineering ([SPEME](https://labs.dimes.unical.it/speme/people/)) Laboratory since November 2023. His research focuses on developing and implementing AI techniques that can operate directly on data sources, such as sensors and IoT devices, to enable real-time and efficient decision-making at the network edge.
 {style="text-align: justify;"}
 <!-- {{% callout note %}}
 Learn more [about me](./about/) and my background

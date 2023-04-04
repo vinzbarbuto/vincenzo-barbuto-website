@@ -7,7 +7,7 @@ sections:
     content:
       title: About Me
       text:  |
-        **Vincenzo Barbuto** is a Ph.D. Candidate in Information and Communication Technologies (ICT) at the Department of Computer, Modeling, Electronic, and System Engineering ([DIMES](https://dimes.unical.it/)), University of Calabria, Italy. He is a member of Smart, Pervasive and Mobile systems Engineering ([SPEME](https://labs.dimes.unical.it/speme/people/)) Laboratory since November 2023. His research focuses on developing and implementing AI techniques that can operate directly on data sources, such as sensors and IoT devices, to enable real-time and efficient decision-making at the network edge. 
+        **Vincenzo Barbuto** is a Ph.D. Student in Information and Communication Technologies (ICT) at the Department of Computer, Modeling, Electronic, and System Engineering ([DIMES](https://dimes.unical.it/)), University of Calabria, Italy. He is a member of Smart, Pervasive and Mobile systems Engineering ([SPEME](https://labs.dimes.unical.it/speme/people/)) Laboratory since November 2023. His research focuses on developing and implementing AI techniques that can operate directly on data sources, such as sensors and IoT devices, to enable real-time and efficient decision-making at the network edge. 
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -65,7 +65,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: PhD Candidate in ICT
+        - title: PhD Student in ICT
           company: University of Calabria (Unical)
           company_url: 'https://www.unical.it'
           company_logo: unical
