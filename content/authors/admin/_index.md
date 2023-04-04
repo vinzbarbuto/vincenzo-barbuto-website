@@ -72,6 +72,9 @@ social:
   - icon: orcid
     icon_pack: ai
     link: 0000-0002-5639-3291
+  - icon: scopus
+    icon_pack: ai
+    link: http://www.scopus.com/inward/authorDetails.url?authorID=58161584500&partnerID=MN8TOARS
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
