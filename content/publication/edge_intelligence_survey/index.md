@@ -41,7 +41,7 @@ summary: Edge Intelligence (EI) is a new solution for improving IoT services by 
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
