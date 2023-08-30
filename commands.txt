@@ -1,5 +1,3 @@
 git add .
 git commit -m 'creating my second post' -a 
 git push
-
-Token: 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
