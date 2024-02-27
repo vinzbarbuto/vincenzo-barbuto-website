@@ -29,8 +29,8 @@ sections:
           company_url: 'https://www.unical.it'
           company_logo: unical
           location: Cosenza, Italy
-          date_start: '2022-03-01'
-          date_end: 
+          date_start: '2023-03-01'
+          date_end: '2023-09-30'
           description: |2-
               **Computer Science Fundamentals Course** <br />
               Assisted first-year students in learning the C programming language
