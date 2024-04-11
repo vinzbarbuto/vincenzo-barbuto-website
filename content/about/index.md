@@ -65,8 +65,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Visiting Scholar
+          company: University of California, Berkeley
+          company_url: 'https://www.berkeley.edu/'
+          company_logo: berkeley
+          location: Berkeley, CA, United States
+          date_start: '2024-03-05'
+          date_end: '2025-02-28'
+          description: |2-
+              **ELECTRICAL ENGINEERING & COMPUTER SCIENCE DEPARTMENT** <br />
+              Participating in the development of an Edge Intelligence-based Traffic Monitoring System by leveraging the Lingua Franca coordination language, and harnessing the power of the CAL theorem to balance Consistency and Availability in distributed cyber-physical systems.
         - title: PhD Student in ICT
-          company: University of Calabria (Unical)
+          company: University of Calabria
           company_url: 'https://www.unical.it'
           company_logo: unical
           location: Rende (CS), Italy
@@ -76,7 +86,7 @@ sections:
               **INFORMATION AND COMMUNICATION TECHNOLOGIES** <br />
               Interested in intelligence at the IoT Edge: models and techniques for enabling smartness in IoT systems
         - title: Master Degree
-          company: University of Calabria (Unical)
+          company: University of Calabria
           company_url: 'https://www.unical.it'
           company_logo: unical
           location: Rende (CS), Italy
@@ -90,7 +100,7 @@ sections:
               - Big Data Management
               - Network Aspects of the IoT Applications
         - title: Dual Degree
-          company: Télécom SudParis (TSP)
+          company: Télécom SudParis
           company_url: 'https://www.telecom-sudparis.eu/'
           company_logo: telecom
           location: Evry, France
@@ -104,7 +114,7 @@ sections:
               - In-Network Computing for Distributed Networking
               - Service-Oriented Computing
         - title: Bachelor Degree
-          company: University of Calabria (Unical)
+          company: University of Calabria
           company_url: 'https://www.unical.it'
           company_logo: unical
           location: Rende (CS), Italy
