@@ -65,16 +65,16 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Visiting Scholar
+        - title: Visiting Student Researcher
           company: University of California, Berkeley
           company_url: 'https://www.berkeley.edu/'
           company_logo: berkeley
           location: Berkeley, CA, United States
           date_start: '2024-03-05'
-          date_end: '2025-02-28'
+          date_end: ''
           description: |2-
               **ELECTRICAL ENGINEERING & COMPUTER SCIENCE DEPARTMENT** <br />
-              Participating in the development of an Edge Intelligence-based Traffic Monitoring System by leveraging the Lingua Franca coordination language, and harnessing the power of the CAL theorem to balance Consistency and Availability in distributed cyber-physical systems.
+              Leverage the Lingua Franca coordination language to enhance the determinism of Edge Intelligence-based IoT systems
         - title: PhD Student in ICT
           company: University of Calabria
           company_url: 'https://www.unical.it'
