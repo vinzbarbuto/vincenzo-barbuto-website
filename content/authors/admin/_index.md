@@ -51,7 +51,7 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
+  - icon: at
     icon_pack: fas
     link: '/#contact'
   # - icon: twitter
@@ -63,9 +63,9 @@ social:
   - icon: google-scholar # Alternatively, use `google-scholar` or `graduation-cap` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?user=_-riw5YAAAAJ&hl=it&authuser=1
-  # - icon: github
-  #   icon_pack: fab
-  #   link: https://github.com/vinzbarbuto
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/vinzbarbuto
   - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Vincenzo-Barbuto
@@ -90,8 +90,9 @@ email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
 ---
-**Vincenzo Barbuto** is a Ph.D. Student in Information and Communication Technologies (ICT) at the Department of Computer, Modeling, Electronic, and System Engineering ([DIMES](https://dimes.unical.it/)), University of Calabria, Italy. He is a member of Smart, Pervasive and Mobile systems Engineering ([SPEME](https://labs.dimes.unical.it/speme/people/)) Laboratory since November 2023. His research focuses on developing and implementing AI techniques that can operate directly on data sources, such as sensors and IoT devices, to enable real-time and efficient decision-making at the network edge.
+**Vincenzo Barbuto** is a Ph.D. Student in Information and Communication Technologies (ICT) at the Department of Computer, Modeling, Electronic, and System Engineering ([DIMES](https://dimes.unical.it/)), University of Calabria, Italy. He is a member of Smart, Pervasive and Mobile systems Engineering ([SPEME](https://labs.dimes.unical.it/speme/people/)) Laboratory since November 2023. Additionally, he holds membership in the prestigious Institute of Electrical and Electronics Engineers ([IEEE](https://www.ieee.org/)), with a specific affiliation to the Systems, Man, and Cybernetics ([SMC](https://www.ieeesmc.org/)) society. His research focuses on developing and implementing AI techniques that can operate directly on data sources, such as sensors and IoT devices, to enable real-time and efficient decision-making at the network edge.
 {style="text-align: justify;"}
 <!-- {{% callout note %}}
 Learn more [about me](./about/) and my background
