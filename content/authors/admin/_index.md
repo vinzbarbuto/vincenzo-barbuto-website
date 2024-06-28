@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Student in ICT
+role: PhD Student in Information and Communication Technologies
 
 # Organizations/Affiliations to show in About widget
 organizations:

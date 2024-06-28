@@ -11,7 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: |- 
-        👋 Hi, there! I'm **Vincenzo**, a PhD Student at UNICAL.
+        👋 Hi, there! I'm **Vincenzo**, a PhD Student @ UNICAL.
         {style="font-size: 0.8rem;color: #FFB76B;"}
         [More about me {{< icon name="angle-right" pack="fas" >}}](./about/)
   - block: collection
