@@ -45,7 +45,7 @@ summary: The paper discusses the importance of Digital Twins (DTs) enhanced by A
 tags: []
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
