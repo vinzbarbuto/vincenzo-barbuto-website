@@ -25,9 +25,9 @@ main:
   - name: Contact
     url: '#contact'
     weight: 40
-  - name: Analytics
-    url: 'https://lookerstudio.google.com/s/t7SyI2EweaI'
-    weight: 50
+  # - name: Analytics
+  #   url: 'https://lookerstudio.google.com/s/t7SyI2EweaI'
+  #   weight: 50
   - name: CV
     url: uploads/resume.pdf
     weight: 70
