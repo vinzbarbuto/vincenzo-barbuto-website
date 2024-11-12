@@ -128,6 +128,28 @@ sections:
               - Software Engineering , Platform for Web Applications
     design:
       columns: '1'
+  - block: experience
+    content:
+      title: Projects
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Lingua Franca
+          company_url: 'https://www.lf-lang.org/'
+          company_logo: lingua-franca
+          date_start: '2024-03-01'
+          date_end: ''
+          description: |2-
+              - Contributed to the enhancement of **Lingua Franca**, a polyglot language that supports deterministic concurrency and timed behavior.
+              - Developed [**edgeai-python**](https://github.com/lf-pkgs/edgeai-python), a Machine Learning library for Edge AI in Lingua Franca, leveraging the **TensorFlow Lite** framework.
+              - Upgraded the [**VS Code extension**](https://github.com/lf-lang/vscode-lingua-franca) by adding a Package Explorer for managing local and remote packages, enabling a low-code interface comparable to state-of-the-art IoT tools.
+      columns: '1'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
