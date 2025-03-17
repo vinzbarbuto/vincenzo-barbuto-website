@@ -1,3 +1,0 @@
-git add .
-git commit -m 'creating my second post' -a 
-git push

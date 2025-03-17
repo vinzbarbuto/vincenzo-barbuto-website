@@ -27,10 +27,7 @@ doi: 'https://doi.org/10.1109/SMC53992.2023.10393907'
 publishDate: '2023-10-01T00:00:00Z'
 
 # Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ['1']
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
 publication: 2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
@@ -41,7 +38,9 @@ abstract: Cities have undergone significant changes due to the rapid increase in
 # Summary. An optional shortened abstract.
 summary: This paper explores urban changes necessitating digital transformation, proposing an Edge Intelligence (EI)-based Traffic Monitoring System (TMS) for smart cities. It advocates for placing intelligence near data sources, showcasing early benefits like enhanced performance and reduced resource usage compared to cloud-centric methods.
 
-tags: []
+tags:
+  - Digital Twin
+  - Edge Intelligence
 
 # Display this page in the Featured widget?
 featured: false

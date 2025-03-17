@@ -24,10 +24,7 @@ doi: 'https://doi.org/10.1109/IOTM.001.2400035'
 publishDate: '2024-08-16T00:00:00Z'
 
 # Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ['2']
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: IEEE Internet of Things Magazine
@@ -38,7 +35,8 @@ abstract: Digital Twins (DTs) are software replicas that not only mirrors physic
 # Summary. An optional shortened abstract.
 summary: This paper introduces the concept of Generative Digital Twins (GDTs), an evolution of Digital Twins (DTs) that incorporates Generative AI to enhance prediction, control, optimization, and simulation capabilities. Originating in the manufacturing sector, DTs have been revitalized by advancements in IoT and AI, allowing them to interact with real-world data and achieve their goals more effectively. The paper defines GDTs, explores how Generative AI bridges model- and data-driven approaches, and highlights its benefits in IoT environments, particularly within Smart City scenarios where predictive accuracy, system robustness, and explainability are crucial.
 
-tags: []
+tags:
+  - Digital Twin
 
 # Display this page in the Featured widget?
 featured: true

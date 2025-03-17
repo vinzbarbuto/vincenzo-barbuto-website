@@ -1,21 +1,55 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: ""
 date: 2022-10-24
 type: landing
 
+design:
+  # Default section spacing
+  spacing: "6rem"
+
 sections:
-  - block: about.avatar
-    id: about
+  - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: |- 
-        👋 Hi, there! I'm **Vincenzo**, a PhD Student @ UNICAL.
-        {style="font-size: 0.8rem;color: #FFB76B;"}
-        [More about me {{< icon name="angle-right" pack="fas" >}}](./about/)
+      text: ""
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+    design:
+      css_class: dark
+      background:
+        color: black
+        image:
+          # Add your image background to `assets/media/`.
+          filename: stacked-peaks.svg
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
+  - block: markdown
+    content:
+      title: '📚 My Research'
+      subtitle: ''
+      text: |-
+        My research focuses on <b style="color: #6ee7b7;">Edge Intelligence</b>, an emerging field at the intersection of artificial intelligence (AI), the Internet of Things (IoT), and edge computing. Specifically, I investigate intelligent devices and systems capable of processing data locally, reducing reliance on cloud-based services. My goal is to understand how these devices can seamlessly integrate into complex cyber-physical systems, ranging from <b style="color: #6ee7b7;">intelligent traffic monitoring</b> to <b style="color: #6ee7b7;">emergency vehicle detection</b>.
+        {style="font-size: 1rem;text-align: justify"}
+
+        This includes exploring efficient machine learning and AI algorithms tailored for edge deployments, evaluating their trade-offs in terms of <b style="color: #6ee7b7;">latency, energy efficiency, and computational cost</b>. Additionally, I examine the broader impact of Edge AI on real-time decision-making and autonomous operations, particularly in environments where <b style="color: #6ee7b7;">network constraints, security, and reliability</b> are critical factors.
+        {style="font-size: 1rem;text-align: justify"}
+
+        Beyond Edge Intelligence, I am also interested in <b style="color: #6ee7b7;">Digital Twins</b>, digital counterparts of physical systems. My research aims to <b style="color: #6ee7b7;">enhance their usability beyond simple mirroring</b>, enabling predictive modeling, adaptive control, and resilient system design. By integrating Digital Twins with Edge AI, I explore how <b style="color: #6ee7b7;">distributed intelligence</b> can improve system robustness, optimize resource allocation, and facilitate dynamic decision-making in real-world applications.
+        {style="font-size: 1rem;text-align: justify"}
+        
+        Please reach out to collaborate 😃
+        {style="font-size: 1rem;text-align: justify"}
+    design:
+      columns: '1'
   - block: collection
-    id: featured
+    id: papers
     content:
       title: Featured Publications
       filters:
@@ -23,34 +57,40 @@ sections:
           - publication
         featured_only: true
     design:
-      columns: '1'
-      view: showcase
+      view: article-grid
+      columns: 2
   - block: collection
     content:
       title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      text: ""
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
-      columns: '1'
       view: citation
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      view: article-grid
+      columns: 1
   # - block: collection
-  #   id: posts
+  #   id: news
   #   content:
-  #     title: Recent Posts
+  #     title: Recent News
   #     subtitle: ''
   #     text: ''
+  #     # Page type to display. E.g. post, talk, publication...
+  #     page_type: post
   #     # Choose how many pages you would like to display (0 = all pages)
   #     count: 5
   #     # Filter on criteria
   #     filters:
-  #       folders:
-  #         - post
   #       author: ""
   #       category: ""
   #       tag: ""
@@ -64,79 +104,42 @@ sections:
   #     order: desc
   #   design:
   #     # Choose a layout view
-  #     view: compact
-  #     columns: '2'
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      # default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      # buttons:
-      #   - name: All
-      #     tag: '*'
-      #   - name: Academic
-      #     tag: Academic
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
-  # - block: collection
-  #   id: talks
+  #     view: date-title-summary
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
+  # - block: cta-card
+  #   demo: false # Only display this section in the Hugo Blox Builder demo site
   #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
+  #     title: 👉 Build your own academic website like this
+  #     text: |-
+  #       This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
+
+  #       <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
+
+  #       Easily build anything with blocks - no-code required!
+        
+  #       From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
+  #     button:
+  #       text: Connect with me on LinkedIn!
+  #       url: https://www.linkedin.com/in/vbarbuto/
   #   design:
-  #     columns: '2'
-  #     view: compact
-  # - block: tag_cloud
-  #   content:
-  #     title: Popular Topics
-  #   design:
-  #     columns: '2'
-  - block: contact
-    id: contact
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
+  - block: cta-button-list
     content:
-      title: Contact
-      subtitle: I'd love to hear from you. Please don't hesitate to reach out to me at any time
-      text: 
-      # Contact (add or remove contact options as necessary)
-      email: vincenzo.barbuto@dimes.unical.it
-      phone: (+39) 0984 494238
-      address:
-        street: Building 41C, 4<sup>th</sup> floor, Via P. Bucci
-        city: Rende
-        region: CS
-        postcode: '87036'
-        country: Italy
-        country_code: IT
-      directions:
-      office_hours: Contact me to schedule a meeting
-      # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      # form:
-      #   provider: netlify
-      #   formspree:
-      #     id:
-      #   netlify:
-      #     # Enable CAPTCHA challenge to reduce spam?
-      #     captcha: true
-      coordinates:
-        latitude: '39.3656'
-        longitude: '16.2254'
-    design:
-      columns: '1'
+      # Need a custom icon?
+      # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
+      buttons:
+        - text: Connect with me on LinkedIn!
+          icon: brands/linkedin
+          url: https://www.linkedin.com/in/vbarbuto/
+        - text: Check out my latest paper on Generative Digital Twins
+          icon: academicons/ieee
+          url: https://doi.org/10.1109/IOTM.001.2400035
+        - text: Take a look at my latest work!
+          icon: academicons/google-scholar
+          url: https://scholar.google.com/citations?user=_-riw5YAAAAJ
 ---

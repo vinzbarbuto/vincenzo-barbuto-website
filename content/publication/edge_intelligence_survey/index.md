@@ -24,10 +24,7 @@ doi: 'https://doi.org/10.3390/bdcc7010044'
 publishDate: '2023-03-07T00:00:00Z'
 
 # Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ['2']
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: Review Papers in Big Data, Cloud-Based Data Analysis and Learning Systems
@@ -57,6 +54,9 @@ url_slides: ''
 url_source: 'https://www.mdpi.com/2504-2289/7/1/44'
 url_video: ''
 
+
+tags:
+  - Edge Intelligence
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:

@@ -28,10 +28,7 @@ doi: 'https://doi.org/10.1145/3616014'
 publishDate: '2023-08-18T00:00:00Z'
 
 # Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ['2']
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: ACM Transactions on Sensor Networks
@@ -42,7 +39,9 @@ abstract: Although Digital Twins (DTs) became very popular in industry, nowadays
 # Summary. An optional shortened abstract.
 summary: The paper discusses the importance of Digital Twins (DTs) enhanced by AI, Edge Computing, and IoT. It introduces the concept of "opportunistic" interpretation of DTs, creating dynamic digital replicas of physical objects through AI at the network edge. This approach is demonstrated through a traffic prediction use case, highlighting improved performance and resource efficiency.
 
-tags: []
+tags:
+  - Digital Twin
+  - Edge Intelligence
 
 # Display this page in the Featured widget?
 featured: true
