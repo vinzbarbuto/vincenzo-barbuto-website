@@ -70,7 +70,12 @@ education:
     date_end: 2025-02-28
     summary: |-
       <div style="text-align: justify;">
-        <p style="margin: 0; padding: 0;"> Leverage the Lingua Franca coordination language to enhance the determinism of Edge Intelligence-based IoT systems </p> 
+        <b style="margin: 0; padding: 0;">Activities Included</b>
+        <ul style="margin: 0px;">
+          <li style="margin: 0px;">Contributed to the enhancement of <b><a href="https://github.com/lf-lang/lingua-franca">Lingua Franca</a></b>, a polyglot language that supports deterministic concurrency and timed behavior.</li>
+          <li style="margin: 0px;">Developed <b><a href="https://github.com/lf-pkgs/edgeai-python">edgeai-python</a></b>, a Machine Learning library for Edge AI in Lingua Franca, leveraging the <b>TensorFlow Lite</b> framework.</li>
+          <li style="margin: 0px;">Upgraded the <b><a href="https://github.com/lf-lang/vscode-lingua-franca">VS Code extension</a></b> by adding a Package Explorer for managing local and remote packages, enabling a low-code interface comparable to state-of-the-art IoT tools.</li>
+        </ul>
       </div>
   - area: MSc Computer Eng. for the IoT
     institution: University of Calabria
