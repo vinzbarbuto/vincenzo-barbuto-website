@@ -227,5 +227,5 @@ awards:
 
 ## About Me
 
-Vincenzo Barbuto is a Ph.D. Student in ICT at the [DIMES](https://dimes.unical.it/), University of Calabria, Italy. He has been a member of the [SPEME](https://labs.dimes.unical.it/speme/people/) Lab since November 2022 and is president of the [IEEE University of Calabria Student Branch](https://edu.ieee.org/it-uc/). He is also a member of [IEEE](https://www.ieee.org/), affiliated with the [SMC](https://www.ieeesmc.org/) society. His research focuses on AI techniques for real-time decision-making at the network edge using sensors and IoT devices.
+Vincenzo Barbuto is a Ph.D. Student in ICT at the [DIMES](https://dimes.unical.it/), University of Calabria, Italy. He has been a member of the [SPEME](https://labs.dimes.unical.it/speme/people/) Lab since November 2022 and is chair of the [IEEE University of Calabria Student Branch](https://edu.ieee.org/it-uc/). He is also a member of [IEEE](https://www.ieee.org/), affiliated with the [SMC](https://www.ieeesmc.org/) society. His research focuses on AI techniques for real-time decision-making at the network edge using sensors and IoT devices.
 {style="text-align: justify;"}
