@@ -124,10 +124,17 @@ education:
         </ul>
       </div>
 work:
+  - position: Industry Training Instructor
+    company_name: Kineticon, Turin, Italy
+    date_start: '2025-06-01'
+    date_end: '2025-07-30'
+    summary: |2-
+      <b>Edge Analytics and Online Learning</b> <br />
+      I designed and delivered a corporate training program on Edge Analytics and Online Learning, focusing on the deployment of <code>TensorFlow Lite</code> models on edge devices and the use of <code>River</code> for incremental and streaming machine learning. The course combined theoretical foundations with practical, hands-on exercises, addressing key topics such as real-time analytics, model drift detection, and adaptive learning strategies for IoT and edge computing scenarios.
   - position: Teaching Assistant
     company_name: University of Calabria, Cosenza, Italy
     date_start: '2023-03-01'
-    date_end: '2023-09-30'
+    date_end: '2025-09-30'
     summary: |2-
       <b>Computer Science Fundamentals Course</b> <br />
       Assisted first-year students in learning the C programming language
