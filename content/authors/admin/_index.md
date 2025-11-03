@@ -216,20 +216,20 @@ awards:
     icon:
     summary: |2-
       Most dedicated and highest-achieving student among the Internet of Things (IoT) students within the Department of Computer, Modeling, Electronic, and System Engineering, University of Calabria for the academic year 2021-22
-  - title: DIMES Excellence Program
+  - title: Honors Track
     url: 
     date: '2021-09-01'
     awarder: University of Calabria
     icon:
     summary: |2-
-      Outstanding student in the Department of Computer, Modeling, Electronic, and System Engineering, University of Calabria for the academic year 2020-21.
+      Outstanding student in the Department of Computer, Modeling, Electronic, and System Engineering (DIMES), University of Calabria for the academic year 2020-21.
   - title: Most Deserving Student
     url: 
     date: '2021-09-01'
     awarder: University of Calabria
     icon:
     summary: |2-
-      Most dedicated and highest-achieving student among the Internet of Things (IoT) students within the Department of Computer, Modeling, Electronic, and System Engineering, University of Calabria for the academic year 2020-21
+      Most dedicated and highest-achieving student among the Internet of Things (IoT) students within the Department of Computer, Modeling, Electronic, and System Engineering (DIMES), University of Calabria for the academic year 2020-21
 ---
 
 ## About Me
