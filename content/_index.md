@@ -136,9 +136,9 @@ sections:
         - text: Connect with me on LinkedIn!
           icon: brands/linkedin
           url: https://www.linkedin.com/in/vbarbuto/
-        - text: Check out my latest paper on Generative Digital Twins
+        - text: Check out my interview in the IEEE SMCS Student Corner
           icon: academicons/ieee
-          url: https://doi.org/10.1109/IOTM.001.2400035
+          url: https://www.ieeesmc.org/wp-content/uploads/2024/10/Student-Corner_Barbuto.pdf
         - text: Take a look at my latest work!
           icon: academicons/google-scholar
           url: https://scholar.google.com/citations?user=_-riw5YAAAAJ
