@@ -136,7 +136,7 @@ sections:
         - text: Connect with me on LinkedIn!
           icon: brands/linkedin
           url: https://www.linkedin.com/in/vbarbuto/
-        - text: Check out my interview in the IEEE SMCS Student Corner
+        - text: IEEE SMCS Student Corner feature
           icon: academicons/ieee
           url: https://www.ieeesmc.org/wp-content/uploads/2024/10/Student-Corner_Barbuto.pdf
         - text: Take a look at my latest work!
