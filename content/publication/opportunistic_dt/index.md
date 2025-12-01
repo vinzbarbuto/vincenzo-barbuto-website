@@ -63,7 +63,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Proposed approach: from the PO ś and its DT ś to its signature, in which features are "opportunistically" selected and synthetically elaborated' 
+  caption: 'Proposed approach: from the PO (and its DT) to its signature, in which features are "opportunistically" selected and synthetically elaborated' 
   #'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: false
