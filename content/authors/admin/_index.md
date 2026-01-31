@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -58,7 +58,7 @@ education:
   - area: PhD in ICT
     institution: University of Calabria
     date_start: 2022-11-01
-    date_end:
+    date_end: '2025-10-31'
     summary: |-
       <div style="text-align: justify;">
         <b style="margin: 0; padding: 0;">Area:</b> Information and Communication Technologies (ICT) <br/>
@@ -124,6 +124,13 @@ education:
         </ul>
       </div>
 work:
+  - position: Postdoctoral Researcher
+    company_name: DIMES Department, University of Calabria
+    date_start: '2025-11-01'
+    date_end: ''
+    summary: |
+      My research addresses the challenge of maintaining systemic coherence in heterogeneous mobile systems. By evolving my PhD work on distributed coordination, I am currently investigating autonomic 'self-*' properties (self-optimization, self-healing) at the Edge. I focus on designing lightweight, low-latency protocols that enable Edge devices to perform complex coordination tasks without heavy reliance on centralized cloud infrastructure. Key areas of investigation include dynamic resource orchestration and the application of feedback loops to decentralized environments
+
   - position: Industry Training Instructor
     company_name: Kineticon, Turin, Italy
     date_start: '2025-06-01'
@@ -234,5 +241,5 @@ awards:
 
 ## About Me
 
-Vincenzo Barbuto is a Ph.D. Student in ICT at the [DIMES](https://dimes.unical.it/), University of Calabria, Italy. He has been a member of the [SPEME](https://labs.dimes.unical.it/speme/people/) Lab since November 2022 and is chair of the [IEEE University of Calabria Student Branch](https://edu.ieee.org/it-uc/). He is also a member of [IEEE](https://www.ieee.org/), affiliated with the [SMC](https://www.ieeesmc.org/) society. His research focuses on AI techniques for real-time decision-making at the network edge using sensors and IoT devices.
+Vincenzo Barbuto is a Postdoctoral Researcher at the [DIMES](https://dimes.unical.it/), University of Calabria, Italy. He has been a member of the [SPEME](https://labs.dimes.unical.it/speme/people/) Lab since November 2022 and is past Chair of the [IEEE University of Calabria Student Branch](https://edu.ieee.org/it-uc/). He holds a Ph.D. in ICT from the University of Calabria. He is also a member of [IEEE](https://www.ieee.org/), affiliated with the [SMC](https://www.ieeesmc.org/) society. His research focuses on AI techniques for real-time decision-making at the network edge using sensors and IoT devices.
 {style="text-align: justify;"}
