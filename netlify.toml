@@ -2,6 +2,12 @@
   command = "hugo --gc --minify -b $URL && npx pagefind --source 'public'"
   publish = "public"
 
+[[redirects]]
+  from = "/*"
+  to = "https://vinzbarbuto.github.io/:splat"
+  status = 301
+  force = true
+
 [build.environment]
   HUGO_VERSION = "0.136.5"
   HUGO_ENABLEGITINFO = "true"
